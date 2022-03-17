@@ -1,5 +1,8 @@
 # Speech To Text Analyze
 
+In this repo, the performances of tools that convert audio to text are compared by reporting their accuracy rates, speeds and features.
+
+
 ## All speech-to-text Tools
 1. Google API($)
 2. Web Speech API(Free)
@@ -24,9 +27,7 @@
 21. Transcribe(Free)
 22. ...
 
-
-In this repo, the performances of tools that convert audio to text are compared by reporting their accuracy rates, speeds and features.
-
+## Todos
 - [ ] Search all speech-to-text tools
 - [ ] Review all source codes
 - [ ] Run all source code in local
