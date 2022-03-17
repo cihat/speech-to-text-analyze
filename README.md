@@ -1,8 +1,8 @@
 # Speech To Text Analyze
 
 ## All speech-to-text Tools
-1. Google API
-2. Web Speech API
+1. Google API($)
+2. Web Speech API(Free)
 3. Dragon Professional Individual($)
 4. Braina Pro($)
 5. Speechnotes(Free)
@@ -22,8 +22,7 @@
 19. Google Gboard(Free)
 20. Just Press Record(Free)
 21. Transcribe(Free)
-22. Windows 10 Speech Recognition(Free)
-23. 
+22. ...
 
 
 In this repo, the performances of tools that convert audio to text are compared by reporting their accuracy rates, speeds and features.
