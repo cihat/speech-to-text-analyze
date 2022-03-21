@@ -28,14 +28,13 @@ https://www.google.com/search?q=compare+speech+to+text+tools&rlz=1C5CHFA_enTR972
 19. Google Gboard(Free)
 20. Just Press Record(Free)
 21. Transcribe(Free)
-22. ...
 
 ## Todos
 - [ ] Search all speech-to-text tools
 - [ ] Review all source codes
-- [ ] Run all source code in local
-- [ ] Test all tools
+- [ ] Read doc or article all speech-to-text technologies
+- [ ] Run some source code in local
+- [ ] Test some tools
 - [ ] Write report for all tools
 - [ ] Compare all tools
 - [ ] Write all features, infos tools
-- [ ] ...
