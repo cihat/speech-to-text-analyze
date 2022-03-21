@@ -2,6 +2,9 @@
 
 In this repo, the performances of tools that convert audio to text are compared by reporting their accuracy rates, speeds and features.
 
+https://www.folio3.ai/blog/best-free-speech-to-text-software/
+https://www.softwaretestinghelp.com/best-dictation-software/
+https://www.google.com/search?q=compare+speech+to+text+tools&rlz=1C5CHFA_enTR972TR973&oq=compare+speech+to+text+tools&aqs=chrome..69i57j69i60l2.10431j0j7&sourceid=chrome&ie=UTF-8
 
 ## All speech-to-text Tools
 1. Google API($)
