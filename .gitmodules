@@ -1,0 +1,3 @@
+[submodule "transcription-compare"]
+	path = transcription-compare
+	url = https://github.com/voicegain/transcription-compare
