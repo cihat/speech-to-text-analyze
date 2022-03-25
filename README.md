@@ -28,27 +28,27 @@ Again, the best recognizer is not the right question, because it all depends on 
 
 
 ## All speech-to-text Tools
-1. Google API($)
-2. Web Speech API(Free) ✅
-3. Dragon Professional Individual($)
-4. Braina Pro($)
-5. Speechnotes(Free)
-6. e-Speaking($) 
-7. Voice Finger($)
-8. Apple Dictation(Free)
-9. Windows Dictations/Speech Recognition(Free)
-10. Dictation(Free)
-11. Speech Texter(Free)
-12. Dragon Anywhere for Mobile($)
-13. Otter(Free)
-14. Verbit($)
-15. Speechmatics($)
-16. Amazon Transcribe($)
-17. Microsoft Azure Speech to Text($)
+1. Google API($) ✅
+2. Amazon Transcribe($) ✅
+3. Microsoft Azure Speech to Text($)
+4. Web Speech API(Free) ✅
+5. Dragon Professional Individual($)
+6. Braina Pro($)
+7. Speechnotes(Free)
+8. e-Speaking($)
+9. Voice Finger($)
+10. Apple Dictation(Free)
+11. Windows Dictations/Speech Recognition(Free)
+12. Dictation(Free)
+13. Speech Texter(Free)
+14. Dragon Anywhere for Mobile($)
+15. Otter(Free)
+16. Verbit($)
+17. Speechmatics($)
 18. IBM Watson Speech to Text($)
-19. Google Gboard(Free)
-20. Just Press Record(Free)
-21. Transcribe(Free)
+19. Just Press Record(Free)
+20. Transcribe(Free)
+21. Voicegain($)
 
 ## Todos
 - [ ] Search all speech-to-text tools
