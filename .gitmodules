@@ -1,3 +1,6 @@
 [submodule "transcription-compare"]
 	path = transcription-compare
 	url = https://github.com/voicegain/transcription-compare
+[submodule "azure-speech-to-text-sample"]
+	path = azure-speech-to-text-sample
+	url = git@github.com:harsha89/azure-speech-to-text-sample.git
