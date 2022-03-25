@@ -30,7 +30,7 @@ Again, the best recognizer is not the right question, because it all depends on 
 ## All speech-to-text Tools
 1. Google API($) ✅
 2. Amazon Transcribe($) ✅
-3. Microsoft Azure Speech to Text($)
+3. Microsoft Azure Speech to Text($) ✅
 4. Web Speech API(Free) ✅
 5. Dragon Professional Individual($)
 6. Braina Pro($)
