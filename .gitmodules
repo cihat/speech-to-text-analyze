@@ -4,3 +4,6 @@
 [submodule "azure-speech-to-text-sample"]
 	path = azure-speech-to-text-sample
 	url = git@github.com:harsha89/azure-speech-to-text-sample.git
+[submodule "Chrome-Web-Speech-API"]
+	path = Chrome-Web-Speech-API
+	url = git@github.com:bensonruan/Chrome-Web-Speech-API.git
