@@ -4,14 +4,34 @@ var SpeechRecognitionEvent =
   SpeechRecognitionEvent || webkitSpeechRecognitionEvent
 
 var phrases = [
-  "I love to sing because it's fun",
-  "where are you going",
-  "can I call you tomorrow",
-  "why did you talk while I was talking",
-  "she enjoys reading books and playing games",
-  "where are you going",
-  "have a great day",
-  "she sells seashells on the seashore",
+  "abazi",
+  "abdomen",
+  "abdominal",
+  "abdusens",
+  "abdüksiyon",
+  "abdüktör",
+  "abeslang",
+  "abiyogenez",
+  "abiyotik",
+  "ablasyon",
+  "abortör",
+  "abrupsiyo",
+  "absorbe etmek",
+  "aerosol",
+  "akseptans",
+  "ambivalans",
+  "anastomoz",
+  "anizokori",
+  "atrezik",
+  "bipolar",
+  "derepresyon",
+  "disfonksiyonel",
+  "duktus",
+  "ekstremite",
+  "filogenez",
+  "fenotip",
+  "impuls",
+  "intertisyum",
 ]
 
 var phrasePara = document.querySelector(".phrase")
@@ -27,22 +47,22 @@ function randomPhrase() {
 
 function testSpeech() {
   testBtn.disabled = true
-  testBtn.textContent = "Test in progress"
+  testBtn.textContent = "Söylediğiniz kelime kontrol ediliyor..."
 
   var phrase = phrases[randomPhrase()]
   // To ensure case consistency while checking with the returned output text
   phrase = phrase.toLowerCase()
   phrasePara.textContent = phrase
-  resultPara.textContent = "Right or wrong?"
+  resultPara.textContent = "Doğru mu Yanlış mı ?"
   resultPara.style.background = "rgba(0,0,0,0.2)"
-  diagnosticPara.textContent = "...diagnostic messages"
+  diagnosticPara.textContent = "...Söylediğiniz kelime kontrol ediliyor..."
 
   var grammar = "#JSGF V1.0; grammar phrase; public <phrase> = " + phrase + ";"
   var recognition = new SpeechRecognition()
   var speechRecognitionList = new SpeechGrammarList()
   speechRecognitionList.addFromString(grammar, 1)
   recognition.grammars = speechRecognitionList
-  recognition.lang = "en-US"
+  recognition.lang = "tr-TR"
   recognition.interimResults = false
   recognition.maxAlternatives = 1
 
@@ -58,12 +78,14 @@ function testSpeech() {
     // The second [0] returns the SpeechRecognitionAlternative at position 0.
     // We then return the transcript property of the SpeechRecognitionAlternative object
     var speechResult = event.results[0][0].transcript.toLowerCase()
-    diagnosticPara.textContent = "Speech received: " + speechResult + "."
+    diagnosticPara.textContent = "Söylenen konuşma: " + speechResult + "."
     if (speechResult === phrase) {
-      resultPara.textContent = "I heard the correct phrase!"
+      resultPara.textContent =
+        "Tıbbi kalıbı doğru bir şekilde söyledin :) 🎉🎉🎉"
       resultPara.style.background = "lime"
     } else {
-      resultPara.textContent = "That didn't sound right."
+      resultPara.textContent =
+        "Maalesef tıbbi kalıbı doğru söyleyemediniz :( 💔💔💔"
       resultPara.style.background = "red"
     }
 
